@@ -1,0 +1,18 @@
+[package]
+name = "dropbox-backup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.91"
+chrono = "0.4.38"
+clap = { version = "4.5.20", features = ["cargo"] }
+dirs = "5.0.1"
+dropbox-sdk = "0.18.1"
+env_logger = "0.11.5"
+jdt = { git = "ssh://git@github.com/amachang/jdt.git", version = "0.1.0" }
+parallel_reader = "0.1.2"
+serde = "1.0.213"
+sys-info = "0.9.1"
+thiserror = "1.0.65"
+
